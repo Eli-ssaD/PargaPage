@@ -1,0 +1,106 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>PargaPage</title>
+
+</head>
+<style>
+html {
+    scroll-behavior: smooth;
+}
+.column {
+    float: center;
+    width: 100%;
+    padding: 10px;
+}
+.column img {
+    margin-top: 12px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    background-image: url(greekflagopaque.jpeg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: blue;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(204, 204, 221);
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+</style>
+</html>
+
+<body>
+<div class="row">
+    <div class="column">
+    </div>
+
+    <div class="sidebar">
+        <a href="home.html" target="self">Home</a>
+        <a href="about.html" target="self">About</a>
+        <a href="thingsToDo.html" target="self">Things To Do</a>
+        <a href="http://meteo.camera/index.php?id=tokima" target="self">Webcam</a>
+        <a href="reviews.html" target="self">Reviews</a>
+
+    </div>
+</body>
+
+<body2>
+<img src="headerHomeImg.jpg" width="1000" height="300" class="center";>
+<h2><center>Parga Πάργα [ˈpaɾɣa]</center></h2>
+
+
+</body2>
+</html>
